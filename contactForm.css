@@ -1,0 +1,91 @@
+.pateine-details {
+
+    margin-top: 10%;
+    margin-left: 10%;
+    text-align: left;
+    justify-content: left;
+    display: flex;
+    padding: 10px 0px 10px 10px;
+    height: 500px;
+    width: 70%;
+    box-shadow: 10px 10px 10px 10px #888888, 10px 10px 10px 10px #888888, 10px 10px 10px 10px #888888, 10px 10px 10px 10px #888888;
+}
+
+.pateine-form {
+    display: flex;
+    width: 50%;
+    line-height: 40px;
+    overflow-y: scroll;
+    height: 450px;
+}
+
+.pateine-form-body {
+    width: 100%;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.lab-image img {
+    width: 35%;
+    height: 60%;
+    position: fixed;
+    left: 45%;
+    z-index: -1;
+}
+
+#lab-buttons {
+    margin-top: 1%;
+    margin-left: 40%;
+    width: 80%;
+    position: relative;
+}
+
+.lab-input {
+    height: 20px;
+    padding: 5px;
+    margin: 5px 0px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+
+#lab-buttons input {
+    background-color: rgb(197, 156, 235);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 3px;
+    width: 80px;
+    height: auto;
+    cursor: pointer;
+}
+
+#district {
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
+
+}
+
+.lab-checkbox {
+    padding: 5px 0px;
+    margin: 5px 0px;
+}
+
+h3 {
+    padding: 5px;
+}
+
+#lab-datetime {
+    border-radius: 5px;
+    height: 30px;
+    width: 180px;
+    border: 1px solid grey;
+    color: gray;
+}
+
+span {
+    display: block;
+    padding: 5px;
+    font-weight:900;
+}

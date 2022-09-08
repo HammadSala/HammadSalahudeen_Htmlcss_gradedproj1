@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contactForm.css">
+</head>
+
+<body>
+
+    <section class="pateine-details">
+        <div class="pateine-form">
+            <form action="submit" class="pateine-form-body">
+                <label>
+                    <span>1. Your Contact Detail</span>
+                </label>
+                <input type="text" placeholder="Full Name" class="lab-input" />
+                <input type="text" placeholder="Patient ID if exists" class="lab-input" />
+                <input type="text" placeholder="Contact Number" class="lab-input" />
+                <input type="text" placeholder="Email ID" class="lab-input" />
+                <label>
+                    <span>2. Address<span>
+                </label>
+                <input type="text" placeholder="H-No" class="lab-input" />
+                <input type="text" placeholder="Street" class="lab-input" />
+                <input type="text" placeholder="Area" class="lab-input" />
+                <label>
+                    <span>District<span>
+                </label>
+                <select id="district" required>
+                    <option value="choose">Choose</option>
+                    <option value="Chennai">Chennai</option>
+                    <option value="Madurai">Madurai</option>
+                </select>
+                <label class="labtest-checkbox">
+                    <span>3. Choose Test Type<span>
+                </label>
+                <input type="checkbox" class="lab-checkbox">
+                <label class="lab-checkbox">CBC</label><br>
+                <input type="checkbox" class="lab-checkbox">
+                <label class="lab-checkbox">Complete Urine</label><br>
+                <input type="checkbox" class="lab-checkbox">
+                <label class="lab-checkbox">Lipid Profile</label><br>
+                <input type="checkbox" class="lab-checkbox">
+                <label class="lab-checkbox">Thyroid Stimulating Hormone(TSH)</label><br>
+                <input type="checkbox" class="lab-checkbox">
+                <label class="lab-checkbox">Glucose Test</label>
+                <label>
+                    <span>4. Do you want a hard copy of the report also?<span>
+                </label>
+                <input type="radio" class="lab-checkbox"> <label class="lab-checkbox">Yes</label><br>
+                <input type="radio" class="lab-checkbox"> <label class="lab-checkbox">No</label>
+                <label>
+                    <span>5. Select Your Comfortable Date and Time<span>
+                </label>
+                <input type="datetime-local" id="lab-datetime">
+            </form>
+            <!-- </div> -->
+            <div class="lab-image">
+                <img src="./Images/Lab-Test/lab-test.jpg" alt="Lab Test Image"/>
+            </div>
+        </div>
+    </section>
+    <div id="lab-buttons">
+        <input type="reset" value="Reset" />
+        <input type="submit" value="submit">
+    </div>
+
+</body>
+
+</html>
